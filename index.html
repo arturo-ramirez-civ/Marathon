@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Marathon Registration</title>
 	<meta name="description" content="Roughly 155 characters">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,60 +13,43 @@
 </header>
 
 <main><!--start of the main section-->
-    <section>
+    <section class="middle">
  	<form>
 
-	    <div>
+	    <div class="first">
 	    	<label for="first">First Name</label>
 	    	<input type="text" id'"first" name="firstname" required>
-
+            </div>
+            <div class="last">
 	   	 <label for="last">Last Name</label>
 	    	<input type="text" id'"last" name="lastname" required>
 	    </div>
 
-	    <p>Select a Race</p>
+	    <h2>Select a Race</h2>
 
-	    <div>
+	    <div class="content2">
 	   	 <label for="funrun">Fun Run 5k</label>
 	   	 <input type="radio" id="funrun" name="race" value="funrun">
-	    </div>
-
-	    <div>
+	   
 	    	<label for="half">Half Marathon</label>
 	    	<input type="radio" id'"half" name="race" value="half">
-	    </div>
-
-	    <div>
+	
 	   	 <label for="full">Full Marathon</label>
 	   	 <input type="radio" id'"full" name="race" value="full">
 	    </div>
 
-	    <div>
+	    <div class="content3">
 	   	 <label for="email">Email</label>
 	   	 <input type="email" id'"email" name="email" required>
 	   	 <label for="password">Password</label>
 	  	  <input type="password" id'"password" name="password" required>
 	    </div>
-
 	    <div>
-	    	<label for="division">Select Age Group</label>
-	   	 <select name="division" id="division">
-	   	 <option value="kids"> Under 18 </option>
-	   	 <option value="adult"> 18 - 55 </option>
-	   	 <option value="senior"> Over 55 </option>
-	    </div>
-
-	    <div>
-	    	<button>click me</button>
-	    </div>
-	    <div>
-	   	 <button>click me</button>
-	    </div>
-
+	    <button >click me</button>
+            </div>
 	</form>
     </section>
-
-</main><!--end of the mian section-->
+</main><!--end of the main section-->
 </body>
 
 </html>
